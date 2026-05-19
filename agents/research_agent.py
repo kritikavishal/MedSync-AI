@@ -4,9 +4,9 @@ from openai import OpenAI
 
 client = OpenAI(
 
-    api_key="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",
+    api_key= #add your own api key
 
-    base_url="https://api.groq.com/openai/v1"
+    base_url= # ADD THE BASE URL
 )
 
 def medical_research(symptoms, urgency):
